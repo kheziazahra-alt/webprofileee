@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khezia profile</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            color: white;
+            background-color: #535353;
+            background-image: url("assets/img/b5.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-position: center;
+        }
+
+        .wrapper {
+            display: grid;
+            grid-template-columns: 25% 75%;
+            grid-template-areas:
+                "header header"
+                "aside  main"
+                "footer footer";
+            min-height: 100vh;
+        }
+
+        header {
+            grid-area: header;
+            background: #2b2b2b;
+            padding: 10px;
+        }
+
+        header h1 {
+            margin: 0 0 4px 0;
+            text-align: center;
+        }
+
+        header p {
+            margin: 0;
+            text-align: center;
+        }
+
+        aside {
+            grid-area: aside;
+            background: #616161;
+            padding: 1px;
+        }
+
+        aside img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        main {
+            grid-area: main;
+            padding: 10px 15px;
+        }
+
+        footer {
+            grid-area: footer;
+            background: #222222;
+            padding: 12px;
+            text-align: center;
+        }
+
+        fieldset {
+            margin-bottom: 15px;
+        }
+
+        .foto-diri {
+            margin-right: 40px;
+            float: left;
+            width: 200px;
+            height: 200px;
+            border: 3px solid #2b2b2b;
+        }
+
+        .foto-diri img {
+            width: 100%;
+            height: 100%;
+        }
+
+        .bawah {
+            display: flex;
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .bawah fieldset {
+            flex: 1;
+            margin-bottom: 0;
+        }
+
+        .galeri {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 6px;
+        }
+
+        .galeri img {
+            width: 100%;
+        }
+
+        a, a:visited, a:hover {
+            color: #3debf8;
+        }
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+
+        <header>
+            <h1>my profile!!💖🚀📝</h1>
+            <p><u>Scroll pelan-pelan, soalnya di bawah ada cerita, video, dan foto yang sayang kalau kelewat.</u>📸🎶</p>
+        </header>
+
+        <aside>
+            <img src="assets/img/T10.jpeg" alt="Foto Khezia">
+        </aside>
+
+        <main>
+            <fieldset style="text-align: left; overflow: hidden;">
+                <legend><strong>yuk kenal zia lebih dekat!!👋 😆</strong></legend>
+                <div class="foto-diri">
+                    <img src="assets/img/kkk.jpg" alt="Foto diri">
+                </div>
+                <br>
+                <p>Nama: Khezia Azzahra Putri</p>
+                <p>NIM: 0110226074</p>
+                <p>Program Studi: Teknik Informatika</p>
+                <p>Email: kheziaazzahraputri@gmail.com</p>
+                <p>Telepon: 085712009163</p>
+            </fieldset>
+
+            <fieldset>
+                <legend><strong>Zia, Siapa Sih?🎶☕🎧🌟</strong></legend>
+                <p>Halo, aku Khezia Azzahra Putri, biasa dipanggil Zia. Aku tinggal di
+                Bekasi dan sekarang kuliah di STT NURUL FIKRI Program Studi Teknik Informatika. Sebelumnya aku
+                sekolah di SMKN 7 Kota Bekasi jurusan Teknik Audio Video, jadi aku
+                sudah kenal dunia elektronika, mulai dari merakit dan menyolder
+                komponen sampai memakai alat ukur. Sekarang aku lagi seru-serunya
+                belajar bikin website lewat tugas praktikum ini. Di luar kuliah, aku suka banget dengerin musik, terutama lagu-lagu
+                TREASURE. Aku juga penggemar Americano, rasanya susah mulai hari
+                tanpa segelas kopi itu. Waktu SMK aku pernah PKL di PT Panasonic Manufacturing Indonesia, dan aktif jadi bendahara
+                ekstrakurikuler Paskibra, jadi aku terbiasa kerja tim dan belajar
+                hal baru dengan cepat.</p>
+            </fieldset>
+
+            <div class="bawah">
+                <fieldset>
+                    <legend><strong>myvid!!🎬🌟</strong></legend>
+                    <video controls width="49%">
+                        <source src="assets/img/myvid.mp4" type="video/mp4">
+                    </video>
+                    <video controls width="49%">
+                        <source src="assets/img/mybf.mp4" type="video/mp4">
+                    </video>
+                    <video controls width="49%">
+                        <source src="assets/img/meee.mp4" type="video/mp4">
+                    </video>
+                    <video controls width="49%">
+                        <source src="assets/img/who.mp4" type="video/mp4">
+                    </video>
+                </fieldset>
+
+                <fieldset>
+                    <legend><strong>galerys📸✨</strong></legend>
+                    <div class="galeri">
+                        <img src="assets/img/gwejh.jpeg" alt="">
+                        <img src="assets/img/duar.jpeg" alt="">
+                        <img src="assets/img/una.jpeg" alt="">
+                        <img src="assets/img/haru.jpeg" alt="">
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend><strong>Attachment📝🌟</strong></legend>
+                    <ul>
+                        <li><a href="files/Laporan_Praktikum_3_Layout_Halaman_Webzia.pdf" download>Praktikum 4</a></li>
+                        <li><a href="files/LaporanpraktikUIUXkhezia.pdf" download>Praktikum 3</a></li>
+                        <li><a href="files/LAPORAN TUGAS PRAKTIKUM MEMBUAT BIODATA KELOMPOK.pdf" download>Praktikum 2</a></li>
+                        <li><a href="files/Laporan_Praktikum_Instalasi_XAMPP_VSCode.pdf" download>Praktikum 1</a></li>
+                        <li><a href="https://github.com/kheziazahra-alt" target="_blank">Github</a></li>
+                        <li><a href="https://instagram.com/americanozzie" target="_blank">Instagram</a></li>
+                        <li><a href="https://open.spotify.com/s/2SGLEH1" target="_blank">Playlist akuu</a></li>
+                    </ul>
+                </fieldset>
+            </div>
+        </main>
+
+        <!-- FOOTER -->
+        <footer>
+            &copy; 2026 Praktikum Desain UI/UX Pemrograman Web
+        </footer>
+
+    </div>
+</body>
+</html>
